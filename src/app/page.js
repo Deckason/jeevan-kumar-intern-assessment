@@ -1,5 +1,4 @@
-"use client"
-import React, { useState } from 'react'
+import React from 'react'
 import SideNav from "../app/components/sideNav/SideNav"
 import Nav from './components/nav/Nav';
 import Consultants from "./components/consultants/Consultants"
@@ -8,7 +7,6 @@ import CardsContainer from './components/cardCounts/CardsContainer';
 import Filters from './components/filters/Filters';
 
 const page = () => {
-  const [menuVisible, setMenuVisible] = useState(false)
   return (
     <div className='container'>
       <div className='navBar'>
