@@ -14,12 +14,12 @@ const Filters = () => {
         <option value="">Option1</option>
       </select>
       <div className={styles.checkButtons}>
-        <label htmlFor="Summary">
-          <input type="checkbox" name="" id="" />
+        <label htmlFor="checkbox">
+          <input type="radio" name="" id="checkbox" className={styles.input} />
           <p>Summary</p>
         </label>
-        <label htmlFor="Branch Wise">
-          <input type="checkbox" name="" id="" />
+        <label htmlFor="checkbox">
+          <input type="radio" name="" id="checkbox" className={styles.input} />
           <p>Branch Wise</p>
         </label>
       </div>
