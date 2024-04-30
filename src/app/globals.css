@@ -47,8 +47,12 @@ button, a{
   gap: 1rem;
 }
 
-/* @media screen and (max-width: 768px) {
-  .nav{
-      border: 1px solid red;
+@media screen and (max-width: 768px) {
+  .aside{
+    width: 100px;
   }
-} */
+
+  .dashboardContent{
+    width: calc(100% - 100px);
+  }
+}

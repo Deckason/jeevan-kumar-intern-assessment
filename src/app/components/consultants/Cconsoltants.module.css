@@ -63,4 +63,22 @@
   .consultantsTable{
     overflow: scroll;
   }
+
+  .header h4{
+    font-size: medium;
+    }
+
+    .icons{
+        gap: .5rem;
+    }
+
+    .icons span{
+        width: 1rem;
+    font-size: smaller;
+    }
+
+    .table th, .table td{
+        font-size: small;
+        padding: .5rem;
+    }
 }
