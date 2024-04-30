@@ -46,3 +46,9 @@ button, a{
   padding-right: 1rem;
   gap: 1rem;
 }
+
+/* @media screen and (max-width: 768px) {
+  .nav{
+      border: 1px solid red;
+  }
+} */

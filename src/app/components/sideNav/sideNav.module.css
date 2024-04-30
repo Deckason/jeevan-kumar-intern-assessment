@@ -50,4 +50,5 @@
 
 .buttonGroup span:active{
     background: #177B49;
+    color: #fff;
 }
