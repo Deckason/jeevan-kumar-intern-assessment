@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./sideNav.module.css"
 import Dashboards from './Dashboards'
-import Processess from './processes'
+import Processess from './Processes'
 
 const sideNav = () => {
   return (
