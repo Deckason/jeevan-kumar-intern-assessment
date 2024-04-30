@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    background: #fff;
+}
+
+.filter{
+    padding: .5rem;
+    display: flex;
+    background: #177B49;
+    position: relative;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.filter p{
+    z-index: 2;
+    color: #fff;
+}
+
+.filter span{
+    height: 50%;
+    aspect-ratio: 1;
+    background: #177B49;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -10%;
+    z-index: 1;
+}
+
+.select{
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2rem;
+    padding: .2rem;
+    width: 150px;
+    color: grey;
+}
+
+.checkButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.checkButtons label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: #ccc;
+}

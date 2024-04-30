@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: .3rem;
+}
+
+.container p{
+    padding: .5rem 0;
+    margin-left: .5rem;
+    width:fit-content;
+    display: flex;
+    gap: .5rem;
+    color: #166535;
+    border-bottom: 1px solid #166535;
+}
+
+.consultantsTable{
+    padding: 1.5rem 2rem;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.icons span{
+    width: 2rem;
+    font-size: large;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FDFFFD;
+    border: 1px solid #ced5d6;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td{
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.table td{
+    color: grey;
+}
