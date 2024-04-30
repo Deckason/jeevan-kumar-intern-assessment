@@ -49,4 +49,16 @@
   .container{
     overflow: scroll;
   }
+
+  .cardContainer{
+    width: 100%;
+  }
+
+.cardDetails h3{
+    font-size: medium;
+  }
+
+  .card{
+    gap: 2rem;
+  }
 }
